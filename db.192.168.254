@@ -17,7 +17,6 @@ $TTL    604800
 200    IN    PTR    okd4-bootstrap.openshift.goodyspace.com.
 201    IN    PTR    okd4-control-plane-1.openshift.goodyspace.com.
 202    IN    PTR    okd4-control-plane-2.openshift.goodyspace.com.
-203    IN    PTR    okd4-control-plane-3.openshift.goodyspace.com.
 204    IN    PTR    okd4-compute-1.openshift.goodyspace.com.
 205    IN    PTR    okd4-compute-2.openshift.goodyspace.com.
 210    IN    PTR    api.openshift.goodyspace.com.
