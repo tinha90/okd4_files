@@ -1,0 +1,24 @@
+$TTL    604800
+@       IN      SOA     okd4-services.goodyspace.com. admin.goodyspace.com. (
+                  6     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800     ; Negative Cache TTL
+)
+
+; name servers - NS records
+    IN      NS      okd4-services.goodyspace.com.
+
+; name servers - PTR records
+210    IN    PTR    okd4-services.goodyspace.com.
+
+; OpenShift Container Platform Cluster - PTR records
+200    IN    PTR    okd4-bootstrap.openshift.goodyspace.com.
+201    IN    PTR    okd4-control-plane-1.openshift.goodyspace.com.
+202    IN    PTR    okd4-control-plane-2.openshift.goodyspace.com.
+203    IN    PTR    okd4-control-plane-3.openshift.goodyspace.com.
+204    IN    PTR    okd4-compute-1.openshift.goodyspace.com.
+205    IN    PTR    okd4-compute-2.openshift.goodyspace.com.
+210    IN    PTR    api.openshift.goodyspace.com.
+210    IN    PTR    api-int.openshift.goodyspace.com.
