@@ -1,7 +1,7 @@
 apiVersion: v1
 baseDomain: goodyspace.com
 metadata:
-  name: openshift
+  name: okd
 
 compute:
 - hyperthreading: Enabled
@@ -11,7 +11,7 @@ compute:
 controlPlane:
   hyperthreading: Enabled
   name: master
-  replicas: 2
+  replicas: 3
 
 networking:
   clusterNetwork:
@@ -26,5 +26,5 @@ platform:
 
 fips: false
 
-pullSecret: '' 
+pullSecret: '{"auths":{"fake":{"auth": "bar"}}}' 
 sshKey: 'ssh-ed25519 AAAA...'   
