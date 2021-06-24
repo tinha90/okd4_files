@@ -25,7 +25,7 @@ okd4-compute-3.okd.goodyspace.com.        IN      A      192.168.1.206
 ; OpenShift internal cluster IPs - A records
 api.okd.goodyspace.com.    IN    A    192.168.1.210
 api-int.okd.goodyspace.com.    IN    A    192.168.1.210
-*.apps.okd.goodyspace.com..    IN    A    192.168.1.210
+*.apps.okd.goodyspace.com.    IN    A    192.168.1.210
 etcd-0.okd.goodyspace.com.    IN    A     192.168.1.201
 etcd-1.okd.goodyspace.com.    IN    A     192.168.1.202
 etcd-2.okd.goodyspace.com.    IN    A    192.168.1.203
